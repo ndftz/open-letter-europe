@@ -15,7 +15,7 @@
 }
 
 .simply-countdown-dark > .simply-section {
-  width: 6em;
+  width: 5em;
   height: 7em;
   padding: 1.5rem;
   font-size:2rem;
@@ -37,7 +37,7 @@
 }
 
 .simply-countdown-dark > .simply-section .simply-amount {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 900;
 
   line-height: 1.2;
