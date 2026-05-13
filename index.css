@@ -605,7 +605,7 @@
 
    @media (min-width: 900px) {
      .letter {
-       transform: translate(2em, -7em) rotate(.7deg);
+       transform: translate(2em, -7em) rotate(0deg);
        background-image: linear-gradient(#fff, #ddd)
      }
    }
