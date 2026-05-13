@@ -535,8 +535,9 @@
      opacity: 1
    }
 
-   .signatory a:hover {
-     background-color: var(--color-blue-2)
+  .signatory a:hover {
+     background-color: var(--color-blue-1);
+     mix-blend-mode:screen;
    }
 
    .signatory a:not(:hover, :focus) b {
@@ -574,10 +575,12 @@
    }
 
    .letter {
-     transition: background .5s ease;
-     padding: 2em;
-     background-color: #d0d0d0;
-     color: black;
+transition: background .5s ease;
+    padding: 3em;
+    background-color: #d0d0d0;
+    color: black;
+    max-width: 50rem;
+    margin: 0 auto;
    }
 
    .letter:hover {
