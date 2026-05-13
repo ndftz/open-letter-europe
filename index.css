@@ -309,7 +309,7 @@
    }
 
 
-   
+
    .content-layout {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -359,7 +359,7 @@
    @media (max-width: 900px) {
 
 
-     
+
      .content-layout,
      .content-layout.reverse {
        grid-template-columns: 1fr !important;
@@ -387,7 +387,9 @@
 
 
 
-   }   /* end mobile */
+   }
+
+   /* end mobile */
 
 
 
@@ -437,7 +439,7 @@
      }
    }
 
-   
+
    #audience h3 {
      font-family: "SUSE Mono";
      font-weight: 400;
@@ -493,8 +495,17 @@
      text-align: center;
    }
 
-   @media (max-width:800px){ .signatories {grid-template-columns: 1fr 1fr !important;} }
-   @media (max-width:500px){ .signatories {grid-template-columns: 1fr  !important;} }
+   @media (max-width:800px) {
+     .signatories {
+       grid-template-columns: 1fr 1fr !important;
+     }
+   }
+
+   @media (max-width:500px) {
+     .signatories {
+       grid-template-columns: 1fr !important;
+     }
+   }
 
    .signatory a {
      display: grid;
@@ -535,7 +546,8 @@
 
    .why-now {
      color: #000;
-     background-color: var(--color-jungle-6);padding:2em 0;
+     background-color: var(--color-jungle-6);
+     padding: 2em 0;
    }
 
    .why-now p {
@@ -591,6 +603,12 @@
      font-weight: 700
    }
 
+   @media (min-width: 900px) {
+     .letter {
+       transform: translate(2em, -7em) rotate(.7deg);
+       background-image: linear-gradient(#fff, #ddd)
+     }
+   }
 
 
    dl {
@@ -637,23 +655,41 @@
      background-color: var(--color-jungle-6);
      color: black;
      padding: 1em 2em;
-     border-radius: 1.5rem; margin-top:1em; margin-bottom:1em;
+     border-radius: 1.5rem;
+     margin-top: 1em;
+     margin-bottom: 1em;
    }
 
 
    .bigcta.secondary {
      background-color: transparent;
      color: var(--color-jungle-6);
-     box-shadow: inset 0 0 0 .1rem; margin-right:1rem;
+     box-shadow: inset 0 0 0 .1rem;
+     margin-right: 1rem;
      padding: 1em 2em;
      border-radius: 1.5rem;
    }
 
 
 
-#onetrust-consent-sdk #onetrust-accept-btn-handler, #onetrust-banner-sdk #onetrust-reject-all-handler, #onetrust-banner-sdk #ot-dialog-confirm-handler{background-color: var(--color-jungle-6) !important; color:black !important; box-shadow: none; border:0}
+   #onetrust-consent-sdk #onetrust-accept-btn-handler,
+   #onetrust-banner-sdk #onetrust-reject-all-handler,
+   #onetrust-banner-sdk #ot-dialog-confirm-handler {
+     background-color: var(--color-jungle-6) !important;
+     color: black !important;
+     box-shadow: none;
+     border: 0
+   }
 
 
 
-#onetrust-consent-sdk #onetrust-pc-btn-handler, #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link, #onetrust-consent-sdk #ot-dialog-cancel-handler{color: #555 !important; border-color: currentcolor !important}
-#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler{max-width: 100% !important;}
+   #onetrust-consent-sdk #onetrust-pc-btn-handler,
+   #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link,
+   #onetrust-consent-sdk #ot-dialog-cancel-handler {
+     color: #555 !important;
+     border-color: currentcolor !important
+   }
+
+   #onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler {
+     max-width: 100% !important;
+   }
