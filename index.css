@@ -100,8 +100,8 @@
    }
 
    ::selection {
-     background-color: var(--color-jungle-6);
-     color: var(--bg-base);
+     background-color: white;
+     color: black;
      text-shadow: none;
    }
 
