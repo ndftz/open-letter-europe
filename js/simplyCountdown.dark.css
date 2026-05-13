@@ -1,0 +1,71 @@
+/**
+* Project : simply-countdown
+* File : simplyCountdown.theme.dark
+* Author : Vincent Loy <vincent.loy1@gmail.com>
+* Theme : Dark Modern
+*/
+
+.simply-countdown-dark {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 0rem;  color: var(--color-blue-2);
+  font-family: "SUSE Mono", monospace;    margin: 2em 0;
+}
+
+.simply-countdown-dark > .simply-section {
+  width: 6em;
+  height: 7em;
+  padding: 1.5rem;
+  font-size:2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-jungle-5);
+  font-family:SUSE;
+  border-radius: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+}
+
+.simply-countdown-dark > .simply-section > div {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  align-items: center;
+}
+
+.simply-countdown-dark > .simply-section .simply-amount {
+  font-size: 4em;
+  font-weight: 900;
+
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.simply-countdown-dark > .simply-section .simply-word {
+  font-size: 1rem;
+  font-weight: 600;
+text-shadown: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+
+
+#countdown > div{background-color:var(--color-blue-1); color: var(--color-blue-2)} 
+
+
+ 
+
+#countdown > div {border-radius: 0}
+#countdown > div:first-child {border-radius: 2rem 0 0 2rem  ; background-color: var(--color-jungle-5); color: var(--color-blue-1)}
+#countdown > div:last-child {border-radius: 0 2rem 2rem 0 }
+
+#countdown > div:nth-child(2) {
+color: var(--color-jungle-5)}
+
+#countdown > div:nth-child(2) .simply-amount{font-weight: 800; }
+#countdown > div:nth-child(3) .simply-amount{font-weight: 400;}
+#countdown > div:nth-child(4) .simply-amount{font-weight: 100;}
