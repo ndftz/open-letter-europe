@@ -613,41 +613,40 @@
 
    dl {
      font-size: 1rem;
-
+     gap: 1rem 0;
      border-radius: 1.5rem;
+     display:grid;
+     grid-template-columns: 1fr 3fr;;
    }
 
    dt,
    dd {
-     font-size: 1rem;
-
      background-color: var(--color-jungle-7);
-     padding: 1rem;
+     padding: 1rem;margin-bottom: .5rem;
    }
 
    dt {
-     font-family: 'SUSE Mono';
-     border-radius: 2em;
+     font-family: 'SUSE Mono';align-content: center;
+     border-radius: 1.5rem 0 0 1.5rem;;
      padding: .5rem 1.5em;
-     font-weight: 500;
+     font-weight: 700;
      font-size: 1rem;
-     background-color: var(--color-jungle-8);
-     margin: .5rem;
+     background-color: var(--color-jungle-7); 
+    
      display: inline-block;
      text-transform: uppercase;
      text-align: right;
-     color: var(--color-blue-1);
-     background-color: white;
+    color: var(--color-blue-2);
+   
    }
 
    dd {
-     border-radius: 1.5rem;
-     min-height: 3rem;
-     padding: 2rem;
-     padding-top: 4em;
-     margin: 0;
-     margin-bottom: 1rem;
-     margin-top: -3.5rem;
+    font-size: 1.2rem;
+    border-radius: 0 1.5rem 1.5rem 0;
+    min-height: 3rem;
+    padding: 2rem; 
+ 
+    color: var(--color-blue-2);
    }
 
 
