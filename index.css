@@ -189,7 +189,8 @@
      background-position: 50% 50%;
      background-size: cover;
      background-attachment: fixed;
-     background-blend-mode: luminosity;    padding-bottom: 4rem;
+     background-blend-mode: luminosity;
+     padding-bottom: 4rem;
    }
 
 
@@ -209,7 +210,7 @@
      position: relative;
      z-index: 1;
      /* Content above the background canvas */
-     padding-top: 5em;
+
      /*clearing the SUSE nav*/
    }
 
@@ -304,7 +305,7 @@
    /* Layout (unchanged from original) */
    .container {
      max-width: 1200px;
-     margin: 1rem auto;
+     margin: 0 auto;
      padding: 3rem;
      padding-right: 6rem;
      position: relative;
@@ -535,7 +536,7 @@
      font-weight: 400;
      line-height: 1.5em;
      color: #fffc;
-         font-size: clamp(1rem, -1.5rem + 8vw, 1.5rem);
+     font-size: clamp(1rem, -1.5rem + 8vw, 1.5rem);
    }
 
 
@@ -548,11 +549,6 @@
 
    /* Responsive */
 
-   @media (min-width: 900px) {
-     .hero {
-       padding-top: 4em;
-     }
-   }
 
 
    @media (max-width: 900px) {
@@ -614,7 +610,7 @@
      article h2 {
        padding-top: 10rem !important;
        font-weight: 500 !important;
-      
+
        ;
      }
 
@@ -666,25 +662,25 @@
      }
 
 
-     #cybersecurity .grid-3-layout {}
 
 
-   }
-
-   /* end mobile */
+   }   /* end mobile */
 
 
 
 
 
    article h3 {
-   
+
      font-weight: 600;
      font-size: 2rem;
      margin-top: 2em;
    }
 
-  .center{text-align:center;}
+   .center {
+     text-align: center;
+   }
+
    svg * {
      transform-box: fill-box;
    }
@@ -1076,13 +1072,11 @@
      line-height: .8em;
      color: var(--primary-color);
      text-shadow: .025em .081em .07em var(--bg-grad-3);
-
      text-shadow: .0em .05em .03em #0c322c55;
      background: -webkit-linear-gradient(-90deg, var(--chart-color-3), var(--chart-color-4), var(--primary-color));
      -webkit-background-clip: text;
      -webkit-text-fill-color: #4ff7a355;
      white-space: nowrap;
-
      margin: 0 auto;
    }
 
@@ -1163,18 +1157,18 @@
    }
 
    article h2 {
-     text-align:left;
+     text-align: left;
      font-weight: 100;
      position: relative;
      font-size: clamp(4rem, -3rem + 10vw, 9rem);
- 
+
      margin-top: 0;
 
      padding-top: .3rem;
- 
+
    }
 
- 
+
 
 
 
@@ -1241,7 +1235,7 @@
      display: none
    }
 
- 
+
 
 
 
@@ -1256,7 +1250,7 @@
        grid-template-columns: 1fr;
      }
    }
- 
+
 
    .grid-3-layout {
      display: grid;
@@ -1310,13 +1304,7 @@
      content: ""
    }
 
-
-   article blockquote b {
-
-     /*  box-shadow: inset 0 .15rem .5em var(--color-jungle-2);
-  background-color: #1e754b55;
-  text-shadow: 0 .1rem .2rem var(--bg-base)*/
-   }
+ 
 
    .grid-3-layout h4 {
      color: var(--text-main);
@@ -1646,7 +1634,7 @@
      color: var(--color-persimmon-3)
    }
 
-   .reason-list.compact ol li {}
+ 
 
    .role-count p {
      line-height: 1em;
@@ -1722,7 +1710,7 @@
      margin-bottom: 1em;
    }
 
-   #cybersecurity h3 {}
+
 
    #audience {
      user-select: none;
@@ -1951,7 +1939,7 @@
 
    .inside-open .count-up {
      line-height: .5em;
-     !important
+
    }
 
    @media (max-width: 900px) {
@@ -1985,7 +1973,6 @@
 
    }
 
-   #summary h4 {}
 
 
    #summary .quote-layout,
@@ -2051,9 +2038,6 @@
 
 
 
-   #countdown {
-     min-hegith: 10em;
-   }
 
 
 
@@ -2112,8 +2096,9 @@
    }
 
    .why-now h3 {
-     color: currentcolor; 
-  margin-top: 0;  }
+     color: currentcolor;
+     margin-top: 0;
+   }
 
    .midd {
      place-self: center;
@@ -2135,13 +2120,17 @@
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
    }
 
-   .letter {transition: background .5s ease;
+   .letter {
+     transition: background .5s ease;
      padding: 2em;
      background-color: #d0d0d0;
      color: black;
    }
 
-   .letter:hover{background-color: white;}
+   .letter:hover {
+     background-color: white;
+   }
+
    .letter h1 {
      font-weight: 700;
      font-size: 1.5em;
@@ -2164,13 +2153,14 @@
 
 
    dl {
- font-size: 1rem;
-  
+     font-size: 1rem;
+
      border-radius: 1.5rem;
    }
 
    dt,
-   dd { font-size: 1rem;
+   dd {
+     font-size: 1rem;
 
      background-color: var(--color-jungle-7);
      padding: 1rem;
@@ -2178,27 +2168,33 @@
 
    dt {
      font-family: 'SUSE Mono';
-     border-radius: 2em; padding: .5rem 1.5em;
+     border-radius: 2em;
+     padding: .5rem 1.5em;
      font-weight: 500;
      font-size: 1rem;
-   background-color: var(--color-jungle-8);
+     background-color: var(--color-jungle-8);
      margin: .5rem;
-      display:inline-block; text-transform: uppercase;
+     display: inline-block;
+     text-transform: uppercase;
      text-align: right;
      color: var(--color-blue-1);
-     background-color: white; 
+     background-color: white;
    }
 
    dd {
-     border-radius:  1.5rem;
+     border-radius: 1.5rem;
      min-height: 3rem;
-     padding: 2rem; padding-top:4em;
+     padding: 2rem;
+     padding-top: 4em;
      margin: 0;
-     margin-bottom:1rem;margin-top: -3.5rem;
+     margin-bottom: 1rem;
+     margin-top: -3.5rem;
    }
 
 
-   .bigcta{    background-color: var(--color-jungle-6);
-    color: black;
-    padding: 1em 2em;
-    border-radius: 1.5rem;}
+   .bigcta {
+     background-color: var(--color-jungle-6);
+     color: black;
+     padding: 1em 2em;
+     border-radius: 1.5rem;
+   }
