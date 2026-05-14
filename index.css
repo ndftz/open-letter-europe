@@ -608,7 +608,7 @@ transition: background .5s ease;
 
    @media (min-width: 900px) {
      .letter {
-       transform: translate(2em, -7em) rotate(0deg);
+      
        background-image: linear-gradient(#fff, #ddd)
      }
    }
@@ -693,5 +693,5 @@ transition: background .5s ease;
    }
 
    #onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler {
-     max-width: 100% !important;
+   
    }
