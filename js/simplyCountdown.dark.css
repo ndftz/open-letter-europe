@@ -44,6 +44,13 @@
   letter-spacing: -0.025em;
 }
 
+@media (max-width: 500px){
+.simply-countdown-dark > .simply-section .simply-amount {font-size: 2em}
+.simply-countdown-dark > .simply-section {
+  width: 4em;}
+
+}
+
 .simply-countdown-dark > .simply-section .simply-word {
   font-size: 1rem;
   font-weight: 600;
