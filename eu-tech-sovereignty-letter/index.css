@@ -514,7 +514,7 @@
      border-radius: 1.5rem;
      grid-template-columns: 1fr;
      grid-template-rows: 3fr 1fr;
-     height: 10em;
+     height: 8em;
      ;
      color: var(--color-jungle-6);
    }
