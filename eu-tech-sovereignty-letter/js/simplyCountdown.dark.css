@@ -84,8 +84,7 @@ color: var(--color-jungle-5)}
 }
 
 .simply-countdown-dark > .simply-section{width:100%}
-#countdown {display:grid; grid-template-columns: 1fr 1fr !important;
+#countdown {display:grid; grid-template-columns: 1fr 1fr 1fr !important;
 
         justify-items: stretch;
         place-items: center; }
-}
