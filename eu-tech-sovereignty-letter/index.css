@@ -493,7 +493,7 @@ footer p{       font-size: 11px !important}
    .signatories {
     font-size: 10px;
      display: grid;
-     gap: 0em;
+     gap: 1em 0em;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
      text-align: center;
    }
@@ -517,7 +517,7 @@ footer p{       font-size: 11px !important}
      place-items: center;
  
      grid-template-columns: 1fr;
-     grid-template-rows: 3fr 1fr;
+     grid-template-rows: 1fr 2fr ;
      height: 10em;opacity:.6;
      ;
      color: var(--color-jungle-6);
@@ -526,6 +526,7 @@ footer p{       font-size: 11px !important}
    .signatory b {
      font-weight: 400;
      font-size: 1rem;
+     order: -1;
    }
 
    .signatory img {
@@ -541,7 +542,7 @@ footer p{       font-size: 11px !important}
    }
 
   .signatory a:hover {opacity:1;
-     background-color: #0005;
+     background-color: #90ebcd22;
      box-shadow: 0 0 0 .1rem ;
  
    }
