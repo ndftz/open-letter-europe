@@ -510,7 +510,7 @@ footer p{       font-size: 11px !important}
      }
    }
 
-   @media (max-width:500px) {
+   @media (max-width:700px) {
   
      .signatory img{max-width: 6em !important; max-height: 2em !important;}
      .signatory a{height:6em !important; width: 10em !important; }
