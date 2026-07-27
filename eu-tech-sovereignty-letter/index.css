@@ -519,7 +519,7 @@ footer p{       font-size: 11px !important}
    .signatory a {
      display: grid;
      place-items: center;
- 
+    line-height:1em;
      grid-template-columns: 1fr;
      grid-template-rows: 1fr 2fr ;
      height: 11em; width: 20em;opacity:.96;
